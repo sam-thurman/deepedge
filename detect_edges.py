@@ -1,6 +1,6 @@
 import warnings
 import numpy as np
-from scipy.misc import imread, imsave
+from imageio import imread, imsave
 from skimage import data
 from skimage.transform import resize
 from keras.models import load_model
